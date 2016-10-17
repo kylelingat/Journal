@@ -1,0 +1,41 @@
+header {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.text {
+  position: relative;
+  top: 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 13px;
+  margin-bottom: 10px;
+
+}
+
+.entries {
+  position: fixed;
+  width: 50%;
+  left: 400px;
+}
+
+
+h1,h2,p {
+    font-family: 'Muli', sans-serif;
+  }
+
+h1 {
+  font-size: 20px;
+}
