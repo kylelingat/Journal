@@ -10,7 +10,7 @@ header {
 }
 
 .text {
-  position: relative;
+  position: fixed;
   top: 300px;
 }
 
