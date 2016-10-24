@@ -9,6 +9,10 @@ header {
   top: 0px;
 }
 
+body {
+  height: 100%;
+}
+
 .text {
   position: absolute;
   top: 300px;
