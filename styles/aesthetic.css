@@ -9,8 +9,8 @@ header {
   top: 0px;
 }
 
-body {
-  height: 100%;
+html {
+  height:100%; 
 }
 
 .text {
