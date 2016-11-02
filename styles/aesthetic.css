@@ -7,8 +7,8 @@ header {
   height: 100%;
   left: 0px;
   top: 0px;
-  -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
-  animation: background 5s cubic-bezier(1,0,0,1) infinite;  
+  -webkit-animation: background 9s cubic-bezier(1,0,0,1) infinite;
+  animation: background 9s cubic-bezier(1,0,0,1) infinite;  
 }
 
  html, body {
