@@ -60,15 +60,15 @@ h1 {
 
 
 @-webkit-keyframes background {
-  0% { background-color: pink; }
+  0% { background-color: #cc0052; }
   33% { background-color: #222; }  
-  67% { background-color: red; }
-  100% { background-color: pink; }
+  67% { background-color: #990000; }
+  100% { background-color: #cc0052; }
 }
 
 @keyframes background {
-  0% { background-color: pink; }
+  0% { background-color: #cc0052; }
   33% { background-color: #222; }  
-  67% { background-color: red; }
-  100% { background-color: pink; }
+  67% { background-color: #990000; }
+  100% { background-color: #cc0052; }
 }
