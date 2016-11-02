@@ -61,14 +61,14 @@ h1 {
 
 @-webkit-keyframes background {
   0% { background-color: #f99; }
-  33% { background-color: #9f9; }  
+  33% { background-color: #ff1a1a; }  
   67% { background-color: #99f; }
   100% { background-color: #f99; }
 }
 
 @keyframes background {
   0% { background-color: #f99; }
-  33% { background-color: #9f9; }  
+  33% { background-color: #ff1a1a; }  
   67% { background-color: #99f; }
   100% { background-color: #f99; }
 }
