@@ -11,6 +11,10 @@ header {
   animation: background 9s cubic-bezier(1,0,0,1) infinite;  
 }
 
+header h1 {
+  font-size: 40px;
+}
+
  html, body {
    margin: 0;
    padding: 0;
