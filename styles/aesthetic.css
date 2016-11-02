@@ -63,12 +63,12 @@ h1 {
   0% { background-color: #ff3385; }
   33% { background-color: #222; }  
   67% { background-color: #990000; }
-  100% { background-color: #ff3385; }
+  100% { background-color: #1a1aff; }
 }
 
 @keyframes background {
   0% { background-color: #ff3385; }
   33% { background-color: #222; }  
   67% { background-color: #990000; }
-  100% { background-color: #ff3385; }
+  100% { background-color: #1a1aff; }
 }
