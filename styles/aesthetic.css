@@ -8,27 +8,32 @@ header {
   left: 0px;
   top: 0px;
   -webkit-animation: background 9s cubic-bezier(1,0,0,1) infinite;
-  animation: background 9s cubic-bezier(1,0,0,1) infinite;  
+  animation: background 9s cubic-bezier(1,0,0,1) infinite;
+  -webkit-animation: fadein 9s;
 }
 
 header h1 {
   font-size: 35px;
+  -webkit-animation: fadein 9s;
 }
 
  html, body {
    margin: 0;
    padding: 0;
    height: 100%;
+   -webkit-animation: fadein 9s;
 }
 
 .text {
   position: absolute;
   top: 300px;
+  -webkit-animation: fadein 9s;
 }
 
 ul {
   list-style: none;
   transform: rotate(180deg);
+  -webkit-animation: fadein 9s;
 }
 
 li {
@@ -36,26 +41,31 @@ li {
   padding: 13px;
   margin-bottom: 10px;
   transform: rotate(180deg);
+  -webkit-animation: fadein 9s;
 
 }
 
 li:hover {
   padding: 30px;
+  -webkit-animation: fadein 9s;
 }
 
 .entries {
   position: absolute;
   width: 60%;
   left: 500px;
+  -webkit-animation: fadein 9s;
 }
 
 
 h1,h2,p {
     font-family: 'Muli', sans-serif;
+  -webkit-animation: fadein 9s;
   }
 
 h1 {
   font-size: 20px;
+  -webkit-animation: fadein 9s;
 }
 
 
@@ -71,4 +81,9 @@ h1 {
   33% { background-color: #ff1a1a; }  
   67% { background-color: #99f; }
   100% { background-color: #f99; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
